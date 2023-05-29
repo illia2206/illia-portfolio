@@ -1,0 +1,54 @@
+body{
+  margin: 0 auto;
+  width: 1240px;
+  font-family: 'Montserrat', sans-serif;
+   
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+.menu-cont{
+  width: 1240px;
+  background: #d0d6d2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.menu{
+  width: 1000px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.ivano{
+  height: 50px;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+}
+.odesa{
+  height: 50px;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+}
+.mariupol{
+  height: 50px;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+}
+.maine-page{
+  width: 1240px;
+  height: 850px;
+  margin: 0 auto;
+  background-image: url(../img/phon.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,251 @@
+body{
+  margin: 0px;
+  overflow:hidden;
+  
+}
+
+div{
+  position: absolute;
+}
+
+
+.parrot_container{
+  transform: scale(0.5);
+  z-index: 10;
+  position:relative;
+  top: 300px;
+  left: 370px;
+}
+.body{
+  width: 100px;
+  height: 200px;
+  border-radius:100px 0px 100px 0px;
+  background: red;
+  position: absolute;
+  top: 70px;
+  left:580px; 
+  overflow:hidden; 
+}
+.face{
+  width: 75px;
+  height: 75px;
+  border-radius: 50px;
+  background: green;
+  position: absolute;
+  top: 40px;
+  left:55px;
+  
+}
+.eye{
+  width:20px;
+  height:20px;
+  border-radius:50%;
+  background: black;
+  position: absolute;
+  top:20px;
+  left:15px; 
+}
+.eye:hover{
+  transform: scale(2,0.5)
+}
+.head{
+  width:140px;
+  height:80px;
+  border-radius: 100px 100px 0 0;
+  background: yellow;
+  position: absolute;
+  top: 70px;
+  left:620px;
+}
+.head:hover{
+  transform: rotate(-20deg);
+}
+.beak{
+  width:50px;
+  height:35px;
+  border-radius: 0 0 100px 0;
+  background: black;
+  position:absolute;
+  top: 150px;
+  left: 660px;
+}
+.beak:hover{
+  transform: rotate(25deg);
+}
+.wing{
+  width: 90px;
+  height: 90px;
+  border-radius: 0 0 0 100px;
+  background: blue;
+  position:absolute;
+  top: 160px;
+  left: 490px;
+}
+.wing:hover{
+  transform: skew(30deg, 20deg);
+  transform-origin: top right; 
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sky{
+  height:50%;
+  width:100%;
+  background: linear-gradient(to bottom,#038ec9, #72c2e8 100%);
+}
+
+.sea{
+  height:50%;
+  width:70%;
+  border-radius: 18px 157px 400px 18px;
+  background: linear-gradient(to right top, #0d058c, #0032a3, #0050b2, #006bbd, #1885c3);
+  top:50%;
+  left:-100px;
+}
+.img{
+  transform: rotate(20deg);
+  position: absolute;
+  top:150px;
+  left:50px;
+  animation: boat 7s infinite ;
+  animation-direction: alternate;
+}
+@keyframes boat{
+  from{
+    transform: translateX(600px);
+}
+  80%{
+    transform: scaleX(-1);
+    
+}
+}
+.dol{
+
+  position: absolute;
+  top: 300px;
+  left: 450px;
+}
+.sand{
+  height:50%;
+  width:100%;
+  border-radius: 300px 0 0 300px;
+  background: khaki;
+  top:50%;
+  left:400px;
+}
+
+.gellyfish{
+  position: relative;
+  top:500px ;
+  left:200px ;
+}
+.bod{
+  width:100px ;
+  height:75px ;
+  background: pink;
+  border-radius:50% 50% 0 0 ;
+  position: absolute;
+
+}
+.block{
+  width:10px ;
+  height:75px ;
+  background: pink;
+  transform: rotate(-7deg);
+  position: absolute;
+  top:70px ;
+  left: 75px;
+}
+.block_2{
+  width:10px ;
+  height:75px ;
+  background: pink;
+  transform: rotate(-7deg);
+  position: absolute;
+  top:70px ;
+  left: 55px;
+}
+.block_3{
+  width:10px ;
+  height:75px ;
+  background: pink;
+  transform: rotate(7deg);
+  position: absolute;
+  top:70px ;
+  left: 35px;
+}
+.block_4{
+  width:10px ;
+  height:75px ;
+  background: pink;
+  transform: rotate(7deg);
+  position: absolute;
+  top:70px ;
+  left: 15px;
+}
+
+
+
+
+
+
+
+.tree{
+  position: relative;
+  top: -200px;
+  left:75%;
+  z-index:5;
+}
+.l_1,
+.l_2,
+.l_3,
+.l_4{
+  width: 50px;
+  height: 120px;
+  background: lime;
+  border-radius: 100px 0;
+  z-index: 6;
+}
+.l_1{
+  transform: rotate(17deg);
+  position: absolute;
+  top:30px;
+  left:-90px;
+}
+.l_2{
+  transform: rotate(120deg);
+  position: absolute;
+  top:-75px;
+  left:-90px;
+}
+.l_3{
+  transform: rotate(-140deg);
+  position: absolute;
+  top:-70px;
+  left:30px;
+}
+.l_4{
+  transform: rotate(120deg);
+  position: absolute;
+  top:10px;
+  left:25px;
+}
+.trunk{
+  height: 250px;
+  width: 40px;
+  background: brown;
+  border-radius:100px 100px 50px 50px;
+  transform: rotate(-20deg);  
+}

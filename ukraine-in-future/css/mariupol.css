@@ -1,0 +1,170 @@
+body{
+  width: 1000px;
+  background: skyblue;
+  overflow: hidden;
+}
+.car{
+  position:relative;
+  top:100px;
+  left: 550px;
+}
+.window{
+  width:100px;
+  height:70px;
+  background: #0097a7;
+  border-radius: 50% 50%  0  0 ;
+  position:absolute;
+  top:-60px;
+}
+.body{
+  width:200px;
+  height:105px;
+  background: #ffeb38;
+  border-radius: 50%;
+  position: absolute;
+  top:;
+  left:-50px;  
+}
+
+.alien{
+  position: absolute;
+  top: 40px;
+  left: 530px;
+  transform: rotate(-20deg);
+}
+
+
+
+.parrot{
+  position: absolute;
+  top: 300px;
+  left: 950px;
+}
+
+
+
+
+
+.hom{
+  width: 150px;
+  height: 250px;
+  background: grey;
+  position: relative;
+  top: 400px;
+  left: 800px;
+}
+
+.home{
+  width: 150px;
+  height: 250px;
+  background: grey;
+  position: relative;
+  top: 150px;
+  left: 1000px;
+}
+.home-two{
+  width: 150px;
+  height: 250px;
+  background: grey;
+  position: relative;
+  top: -100px;
+  left: 1200px;
+}
+.home-three{
+  width: 150px;
+  height: 250px;
+  background: grey;
+  position: relative;
+  top: -350px;
+  left: 100px;
+}
+.wind{
+  width: 130px;
+  height: 100px;
+  background: blue;
+  position: relative;
+  top: 10px;
+  left: 10px;
+}
+.windo{
+  width: 130px;
+  height: 100px;
+  background: yellow;
+  position: relative;
+  top: 20px;
+  left: 10px;
+}
+.cont-cloud{
+  position: relative;
+  top: -1200px;
+  left: -50px;
+}
+.two{
+  position: relative;
+  top: -1200px;
+  left: 950px;
+}
+.block_1{
+  width:190px;
+  height:85px;
+  border: 10px solid blue;
+  background: transperent;
+  border-radius: 50%;
+  position: absolute;
+  top:220px;
+  left:495px;
+}
+.block_2{
+  width:150px;
+  height:70px;
+  border: 10px solid blue;
+  background: transperent;
+  border-radius: 50%;
+  position: absolute;
+  top:350px;
+  left: 515px;
+}
+.block_3{
+  width:100px;
+  height:45px;
+  border: 10px solid blue;
+  background: transperent;
+  border-radius: 50%;
+  position: absolute;
+  top:460px;
+  left:540px;
+}
+.x_1{
+  position: relative;
+  top: 75px;
+  left: 35px;
+}
+.o{
+  width: 120px;
+  height: 70px;
+  border-radius: 50%;
+  background: white;
+  position: absolute;
+  top: 95px;
+  left: 105px;
+  z-index:4;
+}
+.x_2{
+  position: relative;
+  top: -45px;
+  left: 75px;
+}
+.k{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: white;
+  position: absolute;
+  top:75px;
+  left:140px;
+}
+.x_3{
+  position: relative;
+  top: 85px;
+  left: 275px;
+}
