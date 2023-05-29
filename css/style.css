@@ -1,0 +1,686 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+/*	border: solid 2px black;*/
+}
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+.all_project{
+	max-width: 1440px;
+	margin: 0 auto;
+	background-image: url(../img/phon.png);
+	background-repeat: no-repeat;
+	background-position: center 0;
+	background-size: 100%;
+}
+/*перший блок*/
+.container{
+	width: 1180px;
+	min-height:500px;	
+	margin: 0 auto;
+	margin-top: 20px;
+	position:relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
+.container-header{
+	width: 1180px;
+	height: 115px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.container-text{
+	width: 700px;
+	height: 55px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.header-nav{
+	color: #FFFFFF;
+	text-decoration: none;
+	font-weight: 400;
+}
+.header-nav:hover{
+	font-weight: 700;
+	cursor: pointer;
+}
+.header-div{
+	width: 160px;
+    height: 42px;
+	background: #FFFFFF;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div-nav{
+	color: #FFA800;
+	text-decoration: none;
+	font-weight: 700;
+}
+.container-article{
+	width: 855px;
+	margin-left: 250px;
+	display: flex;
+	justify-content: space-between;
+}
+.my-photo{
+	height: 352px;
+    width: 233px;
+}
+.article-div-text{
+	width: 547px;
+}
+.text-ua{
+	width: 320px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.ua{
+	color: white;
+	font-weight: 500;
+    font-size: 16px;
+}
+.p{
+	color: white;
+	font-weight: 700;
+    font-size: 40px;
+    margin-top: 80px;
+}
+.sub{
+	color: white;
+	font-weight: 400;
+    font-size: 18px;
+    margin-top: 21px;
+}
+.cont-text-nav{
+	width: 223px;
+	height: 77px;
+	background: rgba(100, 226, 205, 0.5);
+	border-radius: 50px;
+	margin-top: 29px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.text-nav{
+	width: 192px;
+	height: 50px;
+	background: #64E2CD;
+	border-radius: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.nav-text{
+	width: 112px;
+	font-weight: 700;
+	text-align: center;
+    color: #FFFFFF;
+}
+.circle{
+	height: 261px;
+	width: 261px;
+	border-radius: 100%;
+	position: relative;
+	left: -420px;
+	top: -60px;
+	background: radial-gradient(68.31% 68.31% at 50% 50%, #6FACFD 0%, #075ACA 100%);
+	box-shadow: 0px 10px 50px #3272C8;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.text-circle{
+	width: 231px;
+	height: 231px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-radius: 100%;
+	background: radial-gradient(68.31% 68.31% at 50% 50%, #F9FBFF 0%, #CADEF9 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, #FFFFFF;
+	box-shadow: 0px 10px 50px rgba(119, 157, 255, 0.3);
+}
+.circle-p{
+	font-weight: 700;
+	font-size: 14px;
+	color: #2F80ED;
+}
+.circle-p-text{
+	height: 42px;
+	width: 231px;
+	margin-top: 18px;
+	font-weight: 800;
+    display: flex;
+	justify-content: center;
+	text-align: center;
+    color: #2F80ED;
+}
+.p-text{
+	width: 153px;
+	height: 49px;
+	margin-top: 5px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	font-weight: 700;
+	font-size: 34px;
+	color: #FFA800;
+}
+.z{
+	width: 30px;
+	display: flex;
+	justify-content: center;
+    color:#2F80ED;
+}
+.vidgug{
+	width: 93px;
+	height: 24px;
+	font-weight: 700;
+	font-size: 10px;
+	color: #2F80ED;
+	margin-top: 8px;
+}
+/*другий блок*/
+.second_block{
+	background-image: url(../img/green.png);
+	background-repeat: no-repeat;
+	background-position: center 0;
+	background-size: 100%;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	margin-top: 10px;
+}
+.second-cont{
+	width: 1180px;
+	min-height:500px;	
+	margin: 0 auto;
+	margin-top: 20px;
+	position:relative;
+}
+.left-text{
+	width: 750px;
+	height: 360px;
+	padding-top: 40px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 60px;
+}
+.text-abzas{
+	width: 320px;
+	height: 140px;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+}
+.text-abzas-top{
+	width: 320px;
+	height: 120px;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+}
+
+.orange-text{
+	width: 300px;
+	height: 22px;
+	color: #FFA800;
+	font-weight: 500;
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+.grey-text{
+	width: 320px;
+	height: 160px;
+	color: grey;
+}
+.dosvid{
+	margin-top: 20px;
+	font-weight: bold;
+	font-size: 27px;
+}
+.logo-circle{
+	width: 290px;
+	height: 290px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 100%;
+	box-shadow: -5px 3px 70px 9px #D78DFF;
+	position: absolute;
+	left: 880px;
+	top: 100px;
+}
+.logo-school{	
+	width: 355px;
+	height: 330px;
+	border-radius: 100%;
+}
+.program{
+	color: blue;
+	text-decoration: none;
+	border-bottom: 2px dashed blue;
+	margin-top: 20px;
+	margin-left: 30px;
+	font-weight: bold;
+}
+/*третій блок*/
+.third-block{
+	margin: 0 auto;
+	height: 989px;
+	display: flex;
+	align-items: center;
+	background-image: url(../img/phon-2.jpg);
+	background-repeat: no-repeat;
+	background-position: center 0;
+	background-size: 100%;
+	margin-top: 80px;
+}
+.cont{
+	width: 1180px;
+	min-height:683px;	
+	margin: 0 auto;
+	margin-top: 20px;
+	position:relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.my-jobs{
+	width: 371px;
+	height: 34px;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 30px;
+	line-height: 124.41%;
+}
+.card-cont{
+    width: 1160px;
+    height: 640px;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+}
+.card{
+	width: 565px;
+	height: 278px;
+	background: #FFFFFF;
+	box-shadow: 0px 10px 30px rgba(47, 55, 237, 0.1);
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+	padding-left: 20px;
+}
+.sublime{
+	height: 94px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-self: flex-start;
+	margin-left: 56px;
+	margin-top: 14px;
+}
+.sublime-third{
+	height: 94px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-self: flex-start;
+	margin-left: 7px;
+	margin-top: 14px;
+}
+.big-photo{
+	margin-left: 28px;
+}
+.html{
+	width: 98px;
+	height: 40px;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #FFA800;
+	border-radius: 10px 0px 0px 10px;
+}
+.css{
+	width: 98px;
+	height: 40px;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #FFA800;
+	border-radius: 10px 0px 0px 10px;
+}
+/*четвертий блок*/
+.fourth-cont{
+	width: 1180px; 
+	height: 1010px;
+	margin: 0 auto;
+	position: relative;
+}
+.nazar-title{
+	width: 738px;
+	height: 45px;
+	font-weight: bold;
+	font-size: 30px;
+}
+.article-nazar{
+	width: 1010px;
+	height: 382px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-left: 170px;
+	margin-top: 100px;
+}
+.olecia{
+	width: 351px;
+	height: 212px;
+	background: #FFFFFF;
+	box-shadow: 0px 30px 100px rgba(47, 55, 237, 0.7);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.block-olecia{
+	width: 257px;
+	height: 114px;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+}
+.recomendation{
+	color: #2F80ED;
+}
+.yellow-olecia{
+	font-size: 20px;
+	color: #FFA800;
+	font-weight: 700;
+}
+.grey-techer{
+	color: #636363;
+}
+.section-4block{
+	width: 1245px;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 100px;
+
+}
+.circle-grey-blue{
+	position: absolute;
+	width: 197px;
+	height: 197px;
+	left: 1030px;
+	top: 500px;
+	border-radius: 100%;
+	background: radial-gradient(68.31% 68.31% at 50% 50%, #FFFFFF 0%, #CADEF9 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, #FFFFFF;
+	box-shadow: 0px 10px 50px rgba(119, 157, 255, 0.3);
+	filter: blur(10px);
+}
+.section-blocks{
+	width: 248px;
+	display: flex;
+	flex-direction: column;	
+}
+.blue-text-block{
+	flex-wrap: wrap;
+	height: 46px;
+	font-weight: 600;
+	font-size: 16px;
+	margin-top: 33px;
+	color: #2F80ED;
+	text-transform: uppercase;
+}
+.one{
+	width: 205px;
+}
+.two{
+	width: 246px;
+}
+.three{
+	width: 250px;
+}
+.four{
+	width: 293px;
+}
+.grey-text-block{
+	width: 247px;
+	height: 142px;
+	font-weight: 400;
+	font-size: 16px;
+	color: #636363;
+	margin-top: 9px;
+	display: flex;
+	justify-content: flex-start;
+}
+.two-block{
+	width: 246px;
+}
+.three-block{
+	width: 221px;
+	height: 214px;
+}
+.four-block{
+	width: 225px;
+    height: 145px;
+}
+.img-photo{
+	width: 60px;
+	height: 60px;
+}
+.fourth{
+	width: 293px;
+}
+/*п'ятий блок*/
+.fifth-block{
+	width: 1420px; 
+	margin: 0 auto;
+	position: relative;
+	margin-top: 152px;
+}
+.fifth-title{
+	height: 45px;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+}
+.leson{
+	width: 1420px;
+	height: 561px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-top: 131px;
+}
+.bottom{
+	width: 1420px;
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-between;
+}
+.second-circle{
+	position: absolute;
+	width: 231px;
+	height: 231px;
+	left: 1262px;
+	border-radius: 100%;
+	background: radial-gradient(68.31% 68.31% at 50% 50%, #FFFFFF 0%, #CADEF9 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, #FFFFFF;
+	box-shadow: 0px 10px 50px rgba(119, 157, 255, 0.3);
+	filter: blur(10px);
+	z-index: -5;
+}
+/*шостий блок*/
+.sixth-block{
+	width: 1180px; 
+	height: 1000px;
+	margin: 0 auto;
+	justify-content: center;
+	margin-top: 152px;
+	background-image: url(../img/phon-3.png);
+	background-repeat: no-repeat;
+	background-position: 60% 15%;
+	background-size: 65%;
+}
+.chas_cont{
+	width: 1160px;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 65px;
+	
+}
+.vigidno{
+	position: absolute;
+	width: 90px;
+	height: 90px;
+	left: 200px;
+	top: -43px;
+	color: white;
+	background: #FFA800;
+	border-radius: 300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.chas{
+	width: 271px;
+	height: 293px;
+	background: #FFFFFF;
+	box-shadow: 0px 20px 50px rgba(47, 55, 237, 0.12);
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+}
+.time{
+	width: 153px;
+	height: 32px;
+	font-weight: 700;
+	font-size: 25px;
+	line-height: 40px;
+	color: #2F80ED;
+	text-align: center;
+	margin-top: 71px;
+}
+.resultate{
+	width: 154px;
+	height: 32px;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 158.47%;
+	text-align: center;
+	color: #2F80ED;
+	margin-top: 11px;
+}
+.zamowlania{
+	width: 192px;
+	height: 50px;
+	background: #52D1BC;
+	border-radius: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 22px;
+	color: #FFFFFF;
+	margin-top: 33px;
+}
+/*останій блок*/
+.last-block{
+	width: 100%;
+	height: 282px;
+	background: #2F80ED;
+	margin-top: -340px;
+	position: relative;
+}
+.last-circle{
+	position: absolute;
+	width: 141px;
+	height: 141px;
+	left: -47px;
+	top: -170px;
+	border-radius: 100%;
+	background: radial-gradient(68.31% 68.31% at 50% 50%, #6AAAFF 0%, #2F80ED 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, #FFFFFF;
+	box-shadow: 0px 10px 50px rgba(119, 157, 255, 0.3);
+	filter: blur(10px);
+}
+.pochatok{	
+	display: flex;
+	justify-content: center;
+}
+.pochatok-cont{
+	width: 1178px;
+	height: 128px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.last-cont{
+	width: 791px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.vidily{
+	width: 400px;
+	display: flex;
+	justify-content: space-between;
+}
+.insta-link{
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 119.62%;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.social{
+	width: 280px;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 119.62%;
+	color: #FFFFFF;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.zacinchenia{
+	width: 100%;
+	height: 77px;
+	background: #185FBF;
+	display: flex;
+	justify-content: center;
+}
+.zacinchenia-cont{
+	width: 1178px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.prava{
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 119.62%;
+	color: #FFFFFF;
+	opacity: 0.7;
+}
+.pidvergenia{
+	width: 455px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
